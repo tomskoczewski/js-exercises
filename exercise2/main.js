@@ -7,7 +7,7 @@ document.body.style.height = "10000px";
 div.style.position = "fixed";
 div.style.left = "0";
 div.style.top = "0";
-div.style.height = size + "px";
+div.style.height = `${size}px`;
 div.style.width = "100%";
 div.style.backgroundColor = "green";
 
@@ -26,7 +26,7 @@ changeHeight = () => {
         size -= 2;
         div.style.backgroundColor = "red";
     }
-    div.style.height = size + "px";
+    div.style.height = `${size}px`;
 
 }
 
