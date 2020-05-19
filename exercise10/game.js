@@ -1,5 +1,3 @@
-// Zobacz gotowy projekt: https://websamuraj.pl/examples/js/projekt7/
-
 const gameScore = {
     wins: 0,
     losses: 0,
